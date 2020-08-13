@@ -1,0 +1,8 @@
+alias c='clear'
+alias ll='ls -l'
+alias la='ls -la'
+alias cdiff='colordiff'
+alias sudo='sudo -E'
+alias t='tmux'
+alias ta='tmux a'
+alias tk='tmux kill-session -t'
