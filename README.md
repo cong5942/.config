@@ -19,3 +19,13 @@ source ~/.zshrc
   |-- plugins.zsh  // 插件
   |-- zshrc  // 启用管理以上脚本
 
+## myzsh脚本
+```bash
+# 编辑别名
+myzsh alias
+# 编辑环境变量
+myzsh env
+# 编辑插件
+myzsh plugin
+```
+
