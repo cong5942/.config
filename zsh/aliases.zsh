@@ -6,3 +6,5 @@ alias sudo='sudo -E'
 alias t='tmux'
 alias ta='tmux a'
 alias tk='tmux kill-session -t'
+
+alias myzsh='zsh ~/.config/zsh/myzsh.sh'
