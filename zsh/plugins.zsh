@@ -18,6 +18,7 @@ zinit ice depth=1
 zinit light romkatv/powerlevel10k
 
 # 语法高亮
+zinit ice lucid wait atinit='zpcompinit'
 zinit light zdharma/fast-syntax-highlighting
 
 # 补全
