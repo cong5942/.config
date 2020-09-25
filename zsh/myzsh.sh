@@ -11,15 +11,18 @@ case $1 in
   p|plugin)
     vim ~/.config/zsh/plugins.zsh
     ;;
-  r)
-    source ~/.zshrc
+  u|update)
+    cd ~/.config/zsh
+    pwd
+    git pull
     ;;
   *)
     echo "用法：myzsh 命令\n"
     echo "命令："
-    echo "  alias    查看编辑别名"
-    echo "  env      查看编辑环境变量"
-    echo "  plugin   查看编辑插件"
+    echo "  a, alias    查看编辑别名"
+    echo "  e, env      查看编辑环境变量"
+    echo "  p, plugin   查看编辑插件"
+    echo "  u, update   从Github上更新Zsh配置"
     ;;
 esac
 

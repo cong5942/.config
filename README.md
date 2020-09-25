@@ -22,10 +22,12 @@ source ~/.zshrc
 ## myzsh脚本
 ```bash
 # 编辑别名
-myzsh alias
+myzsh a|alias
 # 编辑环境变量
-myzsh env
+myzsh e|env
 # 编辑插件
-myzsh plugin
+myzsh p|plugin
+# 更新zsh配置
+myzsh u|update
 ```
 
