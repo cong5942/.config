@@ -13,7 +13,6 @@ case $1 in
     ;;
   u|update)
     cd ~/.config/zsh
-    pwd
     git pull
     ;;
   *)
