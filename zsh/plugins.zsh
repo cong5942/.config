@@ -13,12 +13,21 @@ autoload -Uz _zinit
 (( ${+_comps} )) && _comps[zinit]=_zinit
 ### End of Zinit's installer chunk
 
+# 加载 OMZ 框架及部分插件
+zinit snippet OMZ::lib/completion.zsh
+zinit snippet OMZ::lib/history.zsh
+zinit snippet OMZ::lib/key-bindings.zsh
+zinit snippet OMZ::lib/theme-and-appearance.zsh
+
 # p10k 主题
 zinit ice depth=1
 zinit light romkatv/powerlevel10k
 
+# vi-mode
+zinit snippet OMZ::plugins/vi-mode/vi-mode.plugin.zsh
+
 # 语法高亮
-zinit ice lucid wait atinit='zpcompinit'
+# zinit ice lucid wait atinit='zpcompinit'
 zinit light zdharma/fast-syntax-highlighting
 
 # 补全
@@ -33,8 +42,4 @@ zinit snippet OMZ::plugins/git/git.plugin.zsh
 zinit ice lucid wait='1'
 zinit snippet OMZ::plugins/extract
 
-# 加载 OMZ 框架及部分插件
-zinit snippet OMZ::lib/completion.zsh
-zinit snippet OMZ::lib/history.zsh
-zinit snippet OMZ::lib/key-bindings.zsh
-zinit snippet OMZ::lib/theme-and-appearance.zsh
+
