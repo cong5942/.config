@@ -7,12 +7,12 @@
 克隆本仓库到根目录，然后在命令行中输入以下两个命令即可。
 
 ```bash
+# p10k
+$ ln -s -f ~/.config/zsh/p10k.zsh ~/.p10k.zsh
+
 # zsh
 $ echo "source ~/.config/zsh/zshrc" > ~/.zshrc
 $ source ~/.zshrc
-
-# p10k
-ln -s -f ~/.config/zsh/p10k.zsh ~/.p10k.zsh
 
 # tmux
 $ ln -s -f ~/.config/tmux/.tmux.conf ~/.tmux.conf
