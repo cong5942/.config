@@ -37,3 +37,28 @@ myzsh p|plugin
 myzsh u|update
 ```
 
+## tmux快捷键
+
+- `<prefix>` `ctrl` + `x`
+
+- `<prefix> c` 在当前session中创建一个新的窗口
+- `<prefix> C-c` 创建一个新的session
+- `<prefix> e` 编辑tmux配置文件(`~/.tmux.conf.local`)
+- `<prefix> r` 刷新tmux配置文件
+- `<prefix> l` 清空屏幕信息和tmux历史
+- `<prefix> C-f` 根据名称切换session
+- `<prefix> C-h` 上一个窗口
+- `<prefix> C-l` 下一个窗口
+- `<prefix> Tab` 切换到上一次浏览的窗口
+- `<prefix> -` 横向分屏
+- `<prefix> _` 竖向分屏
+- `<prefix> h`、`<prefix> j`、`<prefix> k` 、 `<prefix> l` 根据vim的键位切换窗口
+- `<prefix> H`、`<prefix> J`、`<prefix> K` 、 `<prefix> L` 根据vim的键位调整窗口大小
+- `<prefix> <`、`<prefix> >` 交换窗口的位置
+- `<prefix> +` 在新session中打开当前窗口
+- `<prefix> m` 启用鼠标
+- `<prefix> Enter` 进入复制模式
+- `<prefix> b` 列出粘贴缓存区
+- `<prefix> p` 粘贴缓存区第一条
+- `<prefix> P` 选择粘贴缓存区的哪条数据
+
