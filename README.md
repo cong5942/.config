@@ -11,6 +11,9 @@
 $ echo "source ~/.config/zsh/zshrc" > ~/.zshrc
 $ source ~/.zshrc
 
+# p10k
+ln -s -f ~/.config/zsh/p10k.zsh ~/.p10k.zsh
+
 # tmux
 $ ln -s -f ~/.config/tmux/.tmux.conf ~/.tmux.conf
 $ cp ~/.config/tmux/.tmux.conf.local ~/.tmux.conf.local
@@ -22,6 +25,8 @@ $ cp ~/.config/tmux/.tmux.conf.local ~/.tmux.conf.local
   - aliases.zsh  // 别名
   - env.zsh  // 环境变量
   - plugins.zsh  // 插件
+  - myzsh.sh  // 快速编辑查看zsh配置的脚本
+  - p10k.zsh  // P10K显示样式
   - zshrc  // 启用管理以上脚本
 - tmux // tmux样式 [作者Github项目地址](https://github.com/gpakosz/.tmux)
 
