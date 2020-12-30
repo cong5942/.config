@@ -73,14 +73,14 @@ tmux_conf_theme_colour_5="#444444"    # yellow
 tmux_conf_theme_colour_6="#444444"    # dark gray
 tmux_conf_theme_colour_7="#e4e4e4"    # white
 tmux_conf_theme_colour_8="#444444"    # dark gray
-tmux_conf_theme_colour_9="#8a8a8a"    # yellow
+tmux_conf_theme_colour_9="#dcdfe4"    # yellow
 tmux_conf_theme_colour_10="#ff00af"   # pink
 tmux_conf_theme_colour_11="#5fff00"   # green
-tmux_conf_theme_colour_12="#ffffff"   # light gray
+tmux_conf_theme_colour_12="#080808"   # light gray
 tmux_conf_theme_colour_13="#e4e4e4"   # white
 tmux_conf_theme_colour_14="#444444"   # dark gray
 tmux_conf_theme_colour_15="#444444"   # dark gray
-tmux_conf_theme_colour_16="#d70000"   # red
+tmux_conf_theme_colour_16="#e06c75"   # red
 tmux_conf_theme_colour_17="#e4e4e4"   # white
 
 # default theme (ansi)
@@ -238,7 +238,7 @@ tmux_conf_theme_right_separator_sub="\uE0B3"  #   PowerlineSymbols.otf font, see
 #     - #{username}
 #     - #{username_ssh}
 tmux_conf_theme_status_left=" ❐ #S  "
-tmux_conf_theme_status_right=" #{prefix}#{mouse}#{pairing}#{synchronized}#{?battery_status,#{battery_status},}#{?battery_bar, #{battery_bar},}#{?battery_percentage, #{battery_percentage},} , %R , %d %b | #{username}#{root} "
+tmux_conf_theme_status_right=" #{prefix}#{mouse}#{pairing}#{synchronized}#{?battery_status,#{battery_status},}#{?battery_bar, #{battery_bar},}#{?battery_percentage, #{battery_percentage},} , %R , %d %b | #{username}#{root} | #{hostname} "
 
 # status left style
 tmux_conf_theme_status_left_fg="$tmux_conf_theme_colour_12,$tmux_conf_theme_colour_7,$tmux_conf_theme_colour_8"
@@ -246,9 +246,9 @@ tmux_conf_theme_status_left_bg="$tmux_conf_theme_colour_9,$tmux_conf_theme_colou
 tmux_conf_theme_status_left_attr="bold,none,none"
 
 # status right style
-tmux_conf_theme_status_right_fg="$tmux_conf_theme_colour_12,$tmux_conf_theme_colour_1"
-tmux_conf_theme_status_right_bg="$tmux_conf_theme_colour_15,$tmux_conf_theme_colour_9"
-tmux_conf_theme_status_right_attr="none,none,bold"
+tmux_conf_theme_status_right_fg="$tmux_conf_theme_colour_1,$tmux_conf_theme_colour_12,$tmux_conf_theme_colour_12"
+tmux_conf_theme_status_right_bg="$tmux_conf_theme_colour_15,$tmux_conf_theme_colour_16,$tmux_conf_theme_colour_9"
+tmux_conf_theme_status_right_attr="none,none,bold,bold"
 
 # pairing indicator
 tmux_conf_theme_pairing="⚇"                 # U+2687
